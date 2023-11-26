@@ -1,28 +1,35 @@
+Реализованная функциональность
+
+    сервер работает
+
+Особенность проекта в следующем:
+
+    cервер работает
+
+Основной стек технологий:
+
+    Python,
+    flask,
+    numpy,
+    tensorflow,
+    mysql,
+    git
+
+
+СРЕДА ЗАПУСКА
+
+    развертывание сервиса производится на windelows;
+    требуется установленная СУБД Mysql (версия 8.0+);
+    требуется установленный пакет Flask,numpy, tensorlow для работы с проектом ;
+
+УСТАНОВКА ПАКЕТОВ
+
+Выполните
+pip install numpy
+pip install tensorflow
+pip install Flask
+
+РАЗРАБОТЧИКИ
+Хатченок Олег databaseeng/beck-end-phyton https://t.me/Olezhantsyi
+
 Flask TensorFlow Prediction API
-
-Это Flask-приложение служит простым API для выполнения предсказаний с использованием предварительно обученной модели TensorFlow. Модель загружается при запуске приложения, и предсказания могут быть сделаны путем отправки POST-запросов к конечной точке /predict.
-Предварительные требования
-
-    Python 3.x
-    Flask
-    NumPy
-    TensorFlow
-
-Установка
-
-git clone https://github.com/Olezhantsiy/AnalyticalServer.git
-cd your-repository
-
-Установите зависимости:
-
-    pip install -r requirements.txt
-
-    Загрузите предварительно обученную модель TensorFlow (tensorflow_trained10.h5) и поместите ее в корневой каталог.
-
-Использование:
-
-Запустите приложение Flask:
-
-python app.py
-
-Приложение запустится по адресу http://0.0.0.0:80/.
