@@ -6,7 +6,7 @@ import os; os.environ['TF_ENABLE_ONE DNN_OPTS'] = '0'
 app = Flask(__name__)
 
 # Load the model outside of the route to avoid loading it on every request
-model = tf.keras.models.load_model('tensorflow_trained10.h5')
+model = tf.keras.models.load_model('trained_v1_e10.h5')
 
 print(model)
 # Show the model architecture
@@ -17,7 +17,7 @@ model.summary()
 
 @app.route("/", methods=['GET'])
 def homepage():
-    return 'FFFFFFFFFFFFFFFFFFF'
+    return 'Welcome to Home page!'
 
 @app.route('/predict', methods=['POST'])
 def predict():
