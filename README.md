@@ -10,7 +10,7 @@ Flask TensorFlow Prediction API
 
 Установка
 
-git clone https://github.com/your-username/your-repository.git
+git clone https://github.com/Olezhantsiy/AnalyticalServer.git
 cd your-repository
 
 Установите зависимости:
